@@ -51,6 +51,10 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
